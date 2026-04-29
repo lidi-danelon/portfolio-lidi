@@ -1,6 +1,6 @@
 ## O que aconteceu
 Eu estava em um totem em um fastfood, e uma vez fui fazer um pedido e resolvi colocar o CPF por lá quando apareceu na tela pra por. Alguns messes depois, ao tentar criar uma conta no aplicativo deles, teve um problema. Quando tentava criar uma conta do zero o app dizia "Já temos um cadastro nesse CPF", e o CPF para o cadrastro é obrigatório. Mas para realizar o login é necessário preencher o e-mail, que eu não tenho cadastrado justamente por não ter criado minha conta.  
-Ou seja, por conta de uma falha na integração entre os dois sistemas eu não consegui criar a conta, e se a falha não for resolvida, nunca. O que seria um bug médio-grave, porque apesar que não ser fundamental para o local vender e funcionar, o objetivo do aplicativo é criar um vínculo mais forte com o cliente, - lá tem descontos exclusivos, facilita com várias formas de pedir a comida - e nesse caso foi perdido.
+Ou seja, por conta de uma falha na integração entre os dois sistemas eu não consegui criar a conta, e se a falha não for resolvida, nunca. O que seria um bug médio-grave, porque apesar que não ser fundamental para o local vender e funcionar, o objetivo do aplicativo é criar um vínculo mais forte com o cliente, - lá tem descontos exclusivos, facilita com várias formas de pedir a comida - e nesse caso foi perdido. height="1093"
 
 ## Agora transformando isso em um bug report:  
 
@@ -29,6 +29,14 @@ Ou seja, por conta de uma falha na integração entre os dois sistemas eu não c
 
 **Registro:**
 
-<img width="1125" height="1190" alt="IMG_3599" src="https://github.com/user-attachments/assets/b10fffba-046d-47bc-b605-9d62fa62427d" />
-
-<img width="1125" height="2254" alt="IMG_3600" src="https://github.com/user-attachments/assets/28e97c0c-e226-4514-b04f-2e290764a49a" />
+<table>
+  <tr>
+    <td>
+      <img width="300" alt="IMG_3598" src="https://github.com/user-attachments/assets/e2da3d52-04f3-4a29-a902-e3bdd8ee8aee" /><br>
+      <img width="300" alt="IMG_3599" src="https://github.com/user-attachments/assets/b10fffba-046d-47bc-b605-9d62fa62427d" />
+    </td>
+    <td>
+      <img width="300" alt="IMG_3600" src="https://github.com/user-attachments/assets/28e97c0c-e226-4514-b04f-2e290764a49a" />
+    </td>
+  </tr>
+</table>
