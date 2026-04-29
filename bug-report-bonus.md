@@ -31,3 +31,4 @@ Ou seja, por conta de uma falha na integração entre os dois sistemas eu não c
 
 <img width="1125" height="1190" alt="IMG_3599" src="https://github.com/user-attachments/assets/b10fffba-046d-47bc-b605-9d62fa62427d" />
 
+<img width="1125" height="2254" alt="IMG_3600" src="https://github.com/user-attachments/assets/28e97c0c-e226-4514-b04f-2e290764a49a" />
