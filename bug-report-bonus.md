@@ -28,3 +28,6 @@ Ou seja, por conta de uma falha na integração entre os dois sistemas eu não c
 **Severidade:** Média-grave  
 
 **Registro:**
+
+<img width="1125" height="1190" alt="IMG_3599" src="https://github.com/user-attachments/assets/b10fffba-046d-47bc-b605-9d62fa62427d" />
+
