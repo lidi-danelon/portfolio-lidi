@@ -8,7 +8,7 @@ Usei como teste o site https://www.saucedemo.com/.
 Além disso, em um outro produto, tenho um bug report de uma experiência real como usuário.
 
 O que você vai encontrar aqui:  
-- **[Análise de riscos e estratégia de teste](analise-riscos-e-estratégia-teste.md)**
+- **[Análise e estratégia de teste](analise-e-estratégia-de-teste.md)**
 - **[Plano de testes](plano-de-testes.md)**
 - **[Casos de testes](casos-de-teste.md)**
 - **[Bug report](bug-report.md)**
