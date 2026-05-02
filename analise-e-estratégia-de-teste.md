@@ -1,11 +1,11 @@
 # Análise e estratégia de teste  
 
 ## 1. Visão geral do produto — um parágrafo curto descrevendo o que é o SauceDemo, qual é sua função principal e quem seria o usuário.  
-SauceDemo é um site próprio de teste que representa um e-commerce, ele serve para ajudar os QAs a testarem suas habilidades de qualidade. Sendo o usuário real esses QAs, e o usuário fictício pessoas que querem comprar na internet.
+SauceDemo é um site de demonstração, criado para fins de prática, que simula um e-commerce. Ele serve para ajudar os QAs a testarem suas habilidades de qualidade. Sendo o usuário real esses QAs, e o usuário fictício pessoas que querem comprar na internet.
   
 ## 2. Funcionalidades mapeadas — a lista completa que você levantou explorando o site.  
-Login, acessar o menu, mudar filtro, visualizar um produto específico, adicionar e remover produtos do carrinho, colocar os dados para compra e checar os dados e finalizar compra.  
-Sendo o fluxo principal e único dele do login à finalização da compra.  
+Login, acessar o menu, mudar filtro, visualizar um produto específico, adicionar e remover produtos do carrinho, colocar os dados para compra, checar os dados e finalizar compra, logout, reset app state e all items.  
+Sendo o fluxo principal e único dele do login à finalização da compra.
   
 ## 3. Análise de risco e priorização — aqui é o coração do artefato. Para cada funcionalidade, você vai indicar o nível de prioridade (alta, média ou baixa) e justificar o porquê com base no impacto de uma falha.  
 **Alta:** Login; adicionar e remover produtos; checkout.  
@@ -15,12 +15,14 @@ Uma falha aqui impede todos os usuários de acessar o sistema, tornando o produt
 *Cenários a verificar:* login com credenciais válidas, login com senha incorreta, login com usuário inexistente, campos vazios, usuário bloqueado.  
 
 **Adicionar e remover produtos**  
-Sendo um site de compras é a funcionalidade principal  
+Quando a adição não funciona interrompe o fluxo de compra antes mesmo de ele começar, impedindo o usuário de concluir qualquer transação. No caso da remoção trava pelo usuário querer remover um item que não quer mais e não conseguir, então ele não vai concluir de qualquer forma.  
+*Cenários a verificar:* adição e remoção de itens, quantidade de itens, persistência do carrinho ao navegar entre telas, carrinho vazio indo pro checkout.  
 
 **Checkout**  
-Sem ele o produto não concluí sua função, mesmo que o resto funcione  
-*Sem esses 3, o produto não funciona*  
+O checkout falhar deixa o usuário preso depois de já ter navegado e escolhido os produtos, gerando frustração e sensação de tempo perdido.  
+*Cenários a verificar:* campos obrigatórios vazios, botão de voltar no meio do fluxo, dados sendo exibidos corretamente na tela de revisão.  
 
-**Média:** Mudar filtro; Visualizar um produto específico - Esses dois adicionam uma experiência mais agradável e fácil para o usuário, mas não são fundamentais.  
+**Média:** Mudar filtro; Visualizar um produto específico; Adicionam uma experiência mais agradável e fácil para o usuário, mas não são fundamentais.  
+Logout - O Logout falhar é um problema de segurança — o usuário não consegue encerrar a sessão.  
 
-**Baixa:** Logout; Reset app state; All items - Os itens disponíveis no menu são mais adicionais, não mudam a experiência do e-commerce em si.
+**Baixa:** Reset app state; All items - Para o usuário fictício, são itens mais adicionais, não mudam a experiência do e-commerce em si. Mas para o usuário real tem mais relevância, ajudando nos testes.
