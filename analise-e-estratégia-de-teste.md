@@ -22,7 +22,7 @@ Quando a adição não funciona interrompe o fluxo de compra antes mesmo de ele 
 O checkout falhar deixa o usuário preso depois de já ter navegado e escolhido os produtos, gerando frustração e sensação de tempo perdido.  
 *Cenários a verificar:* campos obrigatórios vazios, botão de voltar no meio do fluxo, dados sendo exibidos corretamente na tela de revisão.  
 
-**Média:** Mudar filtro; Visualizar um produto específico; Adicionam uma experiência mais agradável e fácil para o usuário, mas não são fundamentais.  
+**Média:** Mudar filtro e Visualizar um produto específico - Adicionam uma experiência mais agradável e fácil para o usuário, mas não são fundamentais.  
 Logout - O Logout falhar é um problema de segurança — o usuário não consegue encerrar a sessão.  
 
-**Baixa:** Reset app state; All items - Para o usuário fictício, são itens mais adicionais, não mudam a experiência do e-commerce em si. Mas para o usuário real tem mais relevância, ajudando nos testes.
+**Baixa:** Reset app state e All items - Para o usuário fictício, são itens mais adicionais, não mudam a experiência do e-commerce em si. Mas para o usuário real tem mais relevância, ajudando nos testes.
