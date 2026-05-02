@@ -1,13 +1,13 @@
 # Análise e estratégia de teste  
 
-## 1. Visão geral do produto — um parágrafo curto descrevendo o que é o SauceDemo, qual é sua função principal e quem seria o usuário.  
+## 1. Visão geral do produto  
 SauceDemo é um site de demonstração, criado para fins de prática, que simula um e-commerce. Ele serve para ajudar os QAs a testarem suas habilidades de qualidade. Sendo o usuário real esses QAs, e o usuário fictício pessoas que querem comprar na internet.
   
-## 2. Funcionalidades mapeadas — a lista completa que você levantou explorando o site.  
+## 2. Funcionalidades mapeadas  
 Login, acessar o menu, mudar filtro, visualizar um produto específico, adicionar e remover produtos do carrinho, colocar os dados para compra, checar os dados e finalizar compra, logout, reset app state e all items.  
 Sendo o fluxo principal e único dele do login à finalização da compra.
   
-## 3. Análise de risco e priorização — aqui é o coração do artefato. Para cada funcionalidade, você vai indicar o nível de prioridade (alta, média ou baixa) e justificar o porquê com base no impacto de uma falha.  
+## 3. Análise de risco e priorização  
 **Alta:** Login; adicionar e remover produtos; checkout.  
 
 **Login**  
