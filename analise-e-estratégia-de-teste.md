@@ -26,3 +26,7 @@ O checkout falhar deixa o usuário preso depois de já ter navegado e escolhido 
 Logout - O Logout falhar é um problema de segurança — o usuário não consegue encerrar a sessão.  
 
 **Baixa:** Reset app state e All items - Para o usuário fictício, são itens mais adicionais, não mudam a experiência do e-commerce em si. Mas para o usuário real tem mais relevância, ajudando nos testes.
+
+---
+  
+# Níveis de teste por funcionalidade
