@@ -29,4 +29,14 @@ Logout - O Logout falhar é um problema de segurança — o usuário não conseg
 
 ---
   
-# Níveis de teste por funcionalidade
+# Níveis de teste por funcionalidade  
+Quando o *fluxo completo* é testado do login até a confirmação da compra, é teste de **sistema**. Agora, cada uma das funções *isolada* são do nível de **integração** — explicarei essa parte usando de exemplo as de alta prioridade.
+  
+### Login  
+O login não existe sozinho — ele se comunica com o banco de dados pra verificar as credenciais, e depois redireciona pra home.
+  
+### Carrinho  
+Se comunica com o catálogo de produtos — quando um item é adicionado, o sistema precisa verificar e atualizar a disponibilidade.
+  
+### Checkout  
+O checkout integra os dados do carrinho, as informações inseridas pelo usuário e o módulo financeiro para calcular e exibir as taxas.
