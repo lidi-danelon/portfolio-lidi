@@ -1,8 +1,8 @@
 ### Considerando o caso de teste 9 (que falhou), se transforma nesse bug report:
   
-| Título | Ambiente | Passos para reproduzir | Resultado esperado | Resultado real | Prioridade | Severidade |
-| --- | --- | --- | --- | --- | --- | --- |
-| Checkout aceita carrinho vazio | web — firefox, linux mint | 1. Fazer o login; 2. Clicar no carrinho; 3. Clicar em checkout; 4. Prosseguir com o checkout | O checkout não é iniciado e aparece uma mensagem “seu carrinho está vazio” | o checkout inicia e termina normalmente, com um carrinho sem valor | alta | média | 
+| ID | Título | Ambiente | Passos para reproduzir | Resultado esperado | Resultado real | Prioridade | Severidade |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Checkout aceita carrinho vazio | web — firefox, linux mint | 1. Fazer o login; 2. Clicar no carrinho; 3. Clicar em checkout; 4. Prosseguir com o checkout | O checkout não é iniciado e aparece uma mensagem “seu carrinho está vazio” | o checkout inicia e termina normalmente, com um carrinho sem valor | alta | alta |
 
   
 **Registro**  
