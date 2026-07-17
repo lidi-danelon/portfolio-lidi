@@ -21,7 +21,7 @@ Primeiro foi usada a técnica de partição de equivalência nas três funcional
 - Defeitos críticos e altos documentados e comunicados, mesmo que não corrigidos
 
 ## 6. Análise de Risco
-analise-e-estratégia-de-teste.md
+[analise-e-estratégia-de-teste.md](analise-e-estratégia-de-teste.md)
 
 ## 7. Métricas
 - **Taxa de aprovação:** 95,24% (20 de 21 [casos](https://app.notion.com/p/Casos-de-teste-portf-lio-GitHub-3977092cc8e980b881e5f3ac52180ee2?source=copy_link) aprovados)
