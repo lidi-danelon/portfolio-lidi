@@ -21,9 +21,9 @@ Primeiro foi usada a técnica de partição de equivalência nas três funcional
 - Defeitos críticos e altos documentados e comunicados, mesmo que não corrigidos
 
 ## 6. Análise de Risco
-[analise-e-estrategia-de-teste.md](https://github.com/lidi-danelon/portfolio-lidi/blob/main/analise-e-estrat%C3%A9gia-de-teste.md#an%C3%A1lise-e-estrat%C3%A9gia-de-teste)
+analise-e-estrategia-de-teste.md (https://github.com/lidi-danelon/portfolio-lidi/blob/main/analise-e-estrat%C3%A9gia-de-teste.md#an%C3%A1lise-e-estrat%C3%A9gia-de-teste)
 
 ## 7. Métricas
 - **Taxa de aprovação:** 95,24% (20 de 21 [casos](https://app.notion.com/p/Casos-de-teste-portf-lio-GitHub-3977092cc8e980b881e5f3ac52180ee2?source=copy_link) aprovados)
 - **Cobertura de funcionalidades:** 58% (7 de 12 [funcionalidades mapeadas](https://github.com/lidi-danelon/portfolio-lidi/blob/main/analise-e-estrat%C3%A9gia-de-teste.md#an%C3%A1lise-e-estrat%C3%A9gia-de-teste))
-- **Defeitos encontrados:** 1 ([ID 1 - checkout aceita carrinho vazio](https://app.notion.com/p/Casos-de-teste-portf-lio-GitHub-3977092cc8e980b881e5f3ac52180ee2?source=copy_link), severidade alta)
+- **Defeitos encontrados:** 1 ([ID 1 - checkout aceita carrinho vazio](bug-report.md), severidade alta)
