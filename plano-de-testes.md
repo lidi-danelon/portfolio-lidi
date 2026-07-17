@@ -25,5 +25,5 @@ Primeiro foi usada a técnica de partição de equivalência nas três funcional
 
 ## 7. Métricas
 - **Taxa de aprovação:** 95,24% (20 de 21 casos aprovados)
-- **Cobertura de funcionalidades:** 58% (7 de 12 funcionalidades mapeadas)
+- **Cobertura de funcionalidades:** 58% (7 de 12 [funcionalidades mapeadas](https://github.com/lidi-danelon/portfolio-lidi/blob/main/analise-e-estrat%C3%A9gia-de-teste.md#an%C3%A1lise-e-estrat%C3%A9gia-de-teste))
 - **Defeitos encontrados:** 1 (ID 1 — checkout aceita carrinho vazio, severidade alta)
